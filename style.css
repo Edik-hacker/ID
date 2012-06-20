@@ -1,0 +1,98 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#header {
+    background-image: url("images/header.png");
+    background-repeat: repeat-x;
+    height: 95px;
+}
+
+#logo {
+    background-image: url("images/udf_logo.png");
+    background-repeat: no-repeat;
+    height: 89px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#page {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+#left-menu {
+    width: 250px;
+    float: left;
+}
+
+#left-menu_title {
+    width: 240px;
+    background-color: #fafafa;
+    margin-top: 5px;
+    border-right: 1px solid #f6f6f6;
+    text-align: center;
+}
+
+#left-menu_link {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#content {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 680px;
+    float: left;
+}
+
+#title {
+    font-size: 15px;
+    font-family: Verdana;
+}
+
+#user {
+    font-size: 14px;
+    font-family: Verdana;
+}
+
+#clear {
+    clear: both;
+}
+
+#footer {
+    background: gray;
+    margin: 0px auto;
+    margin-top: 10px;
+    padding-top: 5px;
+    background: silver;
+    height: 30px;
+}
+
+p {
+    font-family: Verdana;
+    font-size: 14px;
+}
+
+a {
+    color: #316c98;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #316c98;
+    text-decoration: none;
+}
+
+#news {
+    /*border: 1px solid silver;*/
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+}
+
+#news_title {
+    background: #fafafa;
+    padding: 5px;
+}
